@@ -19,16 +19,20 @@
 ## 📦 Installation
 
 1. Install Rust (if you don’t have it):
+
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-Clone this repository:
-Bash
+
+2. Clone this repo
+
 git clone https://github.com/AICrox2025/Sorting-master.git
 cd Sorting-master
-Build and run the game:
-Bash
+
+3. Build and run the game
+
 cargo run
-🎮 How to Play
+------------------------
+**🎮 How to Play**
 Enter your name when prompted.
 Choose a game mode:
 Normal – unlimited time
@@ -41,19 +45,19 @@ Enter the numbers in sorted order (space-separated).
 Points are awarded based on speed and correctness.
 Advance through levels as you play.
 Check the leaderboard to see the top scores.
-💡 Tips
+**💡 Tips**
 Use QuickSort for faster sorting of larger lists.
 Try to beat your own high score!
 Run in a terminal that supports ANSI colors for the best experience.
-📁 Files
+**📁 Files**
 src/main.rs – Main Rust source code
 Cargo.toml – Rust project configuration
 leaderboard.txt – Stores player scores
 .gitignore – Ignores build artifacts
-🛠️ Future Improvements
+**🛠️ Future Improvements**
 Multiplayer mode
 Real-time input without pressing Enter
 GUI version with clickable interface
 Online leaderboard
-📝 License
+**📝 License**
 This project is free to use and modify. Have fun sorting! 🎉
